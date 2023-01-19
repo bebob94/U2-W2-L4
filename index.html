@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap e SASS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./scss/app.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Bebo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./features.html">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about_us.html">about us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- fine navbar -->
+
+    <main>
+      <div id="contenitore">
+        <h1>Bebo-Courses 2023</h1>
+        <hr />
+        <h4>Scopri i corsi migliori del momento!</h4>
+      </div>
+
+      <div class="container-cards">
+        <!-- inizio prima card -->
+        <div class="cards">
+          <img
+            src="data:image/jpeg;base64,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"
+            alt="corso"
+          />
+          <div class="description_card">
+            <h3>Bebo cours</h3>
+            <p>front end</p>
+            <h4>15.000 €</h4>
+          </div>
+          <!-- fine prima card -->
+        </div>
+        <!-- inizio seconda card -->
+        <div class="cards">
+          <img
+            src="data:image/jpeg;base64,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"
+            alt="corso"
+          />
+          <div class="description_card">
+            <h3>Bebo cours</h3>
+            <p>data analist</p>
+            <h4>18.000 €</h4>
+          </div>
+          <!-- fine seconda card -->
+        </div>
+        <!-- inizio terza card -->
+        <div class="cards">
+          <img
+            src="data:image/jpeg;base64,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"
+            alt="corso"
+          />
+          <div class="description_card">
+            <h3>Bebo cours</h3>
+            <p>cyber security</p>
+            <h4>20.000 €</h4>
+          </div>
+          <!-- fine terza card -->
+        </div>
+      </div>
+    </main>
+
+    <!-- inizio parte inferiore pagina -->
+    <div class="position-fixed bottom-0 start-0 container">
+      <nav aria-label="...">
+        <ul class="pagination">
+          <li class="page-item disabled">
+            <a class="page-link">Previous</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link active" href="./index.html">1</a>
+          </li>
+          <li class="page-item" aria-current="page">
+            <a class="page-link" href="./features.html">2</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./pricing.html">3</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./about_us.html">4</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./features.html">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,143 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: gray;
+  color: white;
+}
+
+main {
+  text-align: center;
+  margin: 2em;
+}
+main #contenitore {
+  width: 50%;
+  margin: 1em auto;
+  border-radius: 1em;
+  background-color: rgb(68, 64, 64);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+main .container-cards {
+  width: 100%;
+  display: flex;
+  margin-top: 3em;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (max-width: 560px) {
+  main .container-cards {
+    display: block;
+    margin: 2em auto;
+    width: 50%;
+  }
+}
+main .container-cards .cards {
+  width: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  border: 2px solid black;
+  border-radius: 2em;
+  background-color: green;
+  color: black;
+  box-shadow: 5px 0 20px 10px;
+  margin: 3em 1em;
+}
+main .container-cards .cards h3 {
+  font-weight: 800;
+}
+main .container-cards .cards p {
+  font-weight: 400;
+  color: white;
+}
+main .container-cards .cards h4 {
+  color: red;
+  text-decoration: underline;
+}
+main .container-cards .cards img {
+  height: 8em;
+  width: 100%;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  margin-bottom: 10px;
+}
+
+.h2_features {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: x-large;
+  letter-spacing: 4px;
+  font-weight: 400;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.h2_features:hover {
+  color: blue;
+}
+
+.ul_pricing {
+  text-align: left;
+  margin: 4em 0 6em;
+  color: black;
+  font-weight: 600;
+}
+.ul_pricing li {
+  letter-spacing: 3px;
+  margin: 20px;
+}
+
+.p_pricing {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: x-large;
+  letter-spacing: 4px;
+  font-weight: 400;
+  color: black;
+  font-size: 20px;
+  color: red;
+  text-decoration: underline;
+}
+.p_pricing:hover {
+  color: blue;
+}
+
+.main_lastPage {
+  margin: 3em auto;
+  background-color: rgb(94, 87, 87);
+  border-radius: 3em;
+}
+.main_lastPage h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: x-large;
+  letter-spacing: 4px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 3em;
+}
+.main_lastPage h2:hover {
+  color: blue;
+}
+.main_lastPage p {
+  color: gray;
+  margin-bottom: 2em;
+}
+.main_lastPage h6 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: x-large;
+  letter-spacing: 4px;
+  font-weight: 400;
+  color: black;
+  font-size: smaller;
+  color: rgb(94, 87, 87);
+  margin-bottom: 2em;
+}
+.main_lastPage h6:hover {
+  color: blue;
+}
+.main_lastPage h6:hover {
+  color: red;
+  font-size: 1em;
+}/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./scss/app.css" />
+  </head>
+  <body class="position-relative">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Bebo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./features.html">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about_us.html">about us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="main_lastPage">
+        <h2>
+          Siamo un azienda giovane, senza esperienza, senza speranze e senza
+          futuro
+        </h2>
+        <p>
+          La maggior parte delle persone non si affiderebbe a noi, <br />
+          però tu sei diverso e puoi fare la differenza, butta i tuoi soldi con
+          il gruppo Bebo, <br />
+          se va male avrai comunque fatto un esperienza
+        </p>
+        <h6>non rimborsiamo nulla,non provarci neanche</h6>
+      </div>
+    </main>
+
+    <!-- inizio parte inferiore pagina -->
+    <div class="position-absolute bottom-0 start-0 container">
+      <nav aria-label="...">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="./pricing.html">Previous</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./index.html">1</a>
+          </li>
+          <li class="page-item" aria-current="page">
+            <a class="page-link" href="./features.html">2</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./pricing.html">3</a>
+          </li>
+          <li class="page-item active">
+            <a class="page-link" href="./about_us.html">4</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link disabled" href="./about_us.html">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
