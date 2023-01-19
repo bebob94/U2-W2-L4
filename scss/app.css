@@ -108,6 +108,7 @@ main .container-cards .cards img {
   margin: 3em auto;
   background-color: rgb(94, 87, 87);
   border-radius: 3em;
+  padding: 2px 0;
 }
 .main_lastPage h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -115,7 +116,7 @@ main .container-cards .cards img {
   letter-spacing: 4px;
   font-weight: 400;
   color: black;
-  margin-bottom: 3em;
+  margin: 4em 1em;
 }
 .main_lastPage h2:hover {
   color: blue;

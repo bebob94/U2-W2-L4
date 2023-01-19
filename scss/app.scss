@@ -100,9 +100,10 @@ main {
   margin: $margin-3 $margin-auto;
   background-color: rgb(94, 87, 87);
   border-radius: $margin-3;
+  padding: $padding-1 0;
   h2 {
     @include fontBase();
-    margin-bottom: $margin-3;
+    margin: $margin-4 $margin-1;
   }
   p {
     color: $color-grigio;
